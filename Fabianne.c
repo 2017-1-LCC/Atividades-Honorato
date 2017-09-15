@@ -1,3 +1,5 @@
+// Atividade Honorato - Quest√£o 2
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -7,10 +9,10 @@ int menu(){
 	int r;
 	printf("----------------------\n");
 	printf("1 - Matriz\n");
-	printf("2 - MultiplicaÁ„o da DS\n");
+	printf("2 - Multiplica√ß√£o da DS\n");
 	printf("3 - Sair\n");
 	printf("----------------------\n");
-	printf("Digite sua opÁ„o\n");
+	printf("Digite sua op√ß√£o\n");
 	printf("> ");
 	scanf("%d", &r);
 	return r;
@@ -38,7 +40,7 @@ void diagonalsec (int mat[][tam]) {
 		}
 	}
 	printf("\n");
-	printf("O valor do produto dos elementos da DS È: %d", diagSec);
+	printf("O valor do produto dos elementos da DS √©: %d", diagSec);
 	printf("\n");
 }
 
@@ -47,9 +49,9 @@ main (){
 	int mat[tam][tam];
 	int l, c, diagSec, r;
 	for (l=0; l<tam; l++) {
-		printf("Preenchendo a %d∞ linha\n", l+1);
+		printf("Preenchendo a %d¬∞ linha\n", l+1);
 		for (c=0; c<tam; c++) {
-			printf("Informe o %d∞ valor: ", c+1);
+			printf("Informe o %d¬∞ valor: ", c+1);
 			scanf("%d", &mat[l][c]);	
 		}
 		system("cls");
