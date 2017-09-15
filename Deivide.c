@@ -1,3 +1,5 @@
+// Atividade Honorato - Quest√£o 19
+
 #include<stdio.h>
 #define t 3
 int menu(){                                                      //menu
@@ -45,7 +47,7 @@ int todos(int mat[t][t], int m[t][t], int n[t][t]){  //todos os elementos
 	}
 }
 
-main(){                                                      //funÁ„o principal
+main(){                                                      //fun√ß√£o principal
 	int l,r,c,mat[t][t],n[t][t],m[t][t];
 	printf("'Matriz MAT'");                                      //preenchendo os valores da matriz MAT
 	for (l=0;l<t;l++){
@@ -71,7 +73,7 @@ main(){                                                      //funÁ„o principal
 			scanf("%d",&n[l][c]);	
 		}
 	}
-	r=menu();                                                    //chamando a funÁ„o menu
+	r=menu();                                                    //chamando a fun√ß√£o menu
 	while(r!=3) {
 		if(r==1) soma(mat,m,n);
 		if(r==2) todos(mat,m,n);
