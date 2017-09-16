@@ -1,3 +1,5 @@
+// Questão 7 - Mostre a matriz MAT e sua transposta.
+
 #include <stdio.h>
 #include <stdlib.h>
 
