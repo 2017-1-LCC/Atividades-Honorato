@@ -1,4 +1,4 @@
-// Atividade Honorato - Questão 2
+// Questão 2 - Exibir a matriz e o produto dos elementos da diagonal secundária.
 
 #include <stdio.h>
 #include <stdlib.h>
