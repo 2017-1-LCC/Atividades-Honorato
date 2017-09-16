@@ -36,8 +36,7 @@ int main (){
 			scanf("%f",&MAT[L][C]);
 		}
 	}
-	//system("cls"); //usado para limpar a tela no windows
-	system("cls"); //limpar a tela no linux;
-    Menorindice(MAT);
-    return 0;
+ 	system("cls"); //usado para limpar a tela no windows/linux;
+    	Menorindice(MAT);
+    	return 0;
 }
