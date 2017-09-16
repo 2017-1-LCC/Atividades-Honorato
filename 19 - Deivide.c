@@ -1,4 +1,4 @@
-// Atividade Honorato - Questão 19
+// Questão 19 - Ler as matrizes N e M, fazer a operação S=MAT+M-N e depois mostrar todas as matrizes.
 
 #include<stdio.h>
 #define t 3
