@@ -1,4 +1,4 @@
-// Atividade Honorato - Questão 12
+// Questão 12 - Exibir a matriz, o maior valor e o menor valor dessa matriz.
 
 #include <stdio.h>
 #include <stdlib.h>
