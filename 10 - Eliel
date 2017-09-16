@@ -1,4 +1,4 @@
-// Atividade Honorato - Questão 10
+// Questão 10 - Ler matriz N, calcular o produto de MAT e N, colocando os resultados na matriz P e exibir as três matrizes.
 
 #include <stdio.h>
 #define tam 3
