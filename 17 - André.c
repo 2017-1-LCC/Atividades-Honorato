@@ -1,4 +1,4 @@
-// Atividade Honorato - Questão 17
+// Questão 17 - Mostrar matriz e os elementos do triângulo superior da diagonal principal da matriz.
 
 /*
 	Matéria: Algoritmo introdução a programação
