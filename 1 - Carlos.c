@@ -1,5 +1,4 @@
-// Atividade Honorato - Questão 1
-/*Fazer uma função numa matriz e somar os valores da diagonal principal.*/
+// Questão 1 - Exibir a matriz e a soma dos elementos da diagonal principal.
 
 #include <stdio.h>
 #include <stdlib.h>
