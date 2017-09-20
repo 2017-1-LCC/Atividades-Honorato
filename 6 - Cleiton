@@ -1,9 +1,9 @@
+// Quest√£o 6 - Mostrar a matriz e os elementos acima da Diagonal Secund√°ria
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 #define tam 3
-
-// Quest„o 06- Mostrar a matriz e os elementos acima da Diagonal Secund·ria
 
 int menu (){
 	int r;
@@ -11,9 +11,9 @@ int menu (){
 	printf("\tMATRIZ\n");
 	printf("----------------------\n");
 	printf("1 - EXIBIR MATRIZ\n");
-	printf("2 - TRI¬NGULO SUPERIOR DA DIAGONAL SECUND¡RIA\n");
+	printf("2 - TRI√ÇNGULO SUPERIOR DA DIAGONAL SECUND√ÅRIA\n");
 	printf("3 - SAIR\n");
-	printf("\nDIGITE SUA OP«√O: ");
+	printf("\nDIGITE SUA OP√á√ÉO: ");
 	scanf("%d", &r);
 	return r;
 }
@@ -29,7 +29,7 @@ void exibir(int MAT[][tam]){
 
 }
 /*
-			DIAGONAL SECUND¡RIA:
+			DIAGONAL SECUND√ÅRIA:
 
 		coluna 0	coluna 1	coluna 2
 
@@ -58,7 +58,7 @@ int main (void){
 
 	for (l=0; l<3;l++){
 		for (c=0; c<3;c++){
-			printf("Informe o Valor da PosiÁ„o |%d||%d|: ", l,c);
+			printf("Informe o Valor da Posi√ß√£o |%d||%d|: ", l,c);
 			scanf("%d", &MAT[l][c]);
 		}
 	}
