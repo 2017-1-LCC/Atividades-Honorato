@@ -1,3 +1,5 @@
+// Quest√£o 8 - Escrever a matriz e os elementos do tri√¢ngulo inferior da diagonal principal.
+
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
@@ -8,7 +10,7 @@ int menu (){
 	printf("1 - EXIBIR MATRIZ\n");
 	printf("2 - EXIBIR TRIANGULO INFERIOR DA PRINCIPAL\n");
 	printf("3 - SAIR\n");
-	printf("\nDIGITE SUA OP«√O: ");
+	printf("\nDIGITE SUA OP√á√ÉO: ");
 	scanf("%d", &Ret);
 	return Ret;
 	
@@ -44,7 +46,7 @@ main (){
 		
 	for (l=0; l<T;l++){
 	    for (c=0;c<T;c++){
-	    	printf("Informe o valor da posiÁ„o %d %d: ", l,c);
+	    	printf("Informe o valor da posi√ß√£o %d %d: ", l,c);
 	    	scanf("%d", &MAT[l][c]);
 	    }
 	}
