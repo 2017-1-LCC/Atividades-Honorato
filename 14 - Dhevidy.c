@@ -1,3 +1,5 @@
+// Quest√£o 14 - Exibir a matriz e o valor m√©dio.
+
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
@@ -6,9 +8,9 @@
 int menu (){
 	int r;
 	printf("1 : exibir matriz\n");
-	printf("2 : exibir a MÈdia\n");
+	printf("2 : exibir a M√©dia\n");
 	printf("3 : sair\n");
-	printf("\ndigite sua opiÁ„o: ");
+	printf("\ndigite sua opi√ß√£o: ");
 	scanf("%d", &r);
 	return r;
 	
@@ -23,7 +25,7 @@ void media (int MAT[][m]){
 		}
     }	
 	aux = aux/9;
-	printf("MÈdia : %.3f\n", aux);
+	printf("M√©dia : %.3f\n", aux);
 } 
  
 void exibir (int MAT[][m]){
@@ -45,7 +47,7 @@ main (){
 		
 	for (l=0; l<m;l++){
 	for (c=0;c<m;c++){
-	printf("Informe o valor da posiÁ„o |%d||%d|: ", l,c);
+	printf("Informe o valor da posi√ß√£o |%d||%d|: ", l,c);
 	scanf("%d", &MAT[l][c]);
 	    }
 	}
